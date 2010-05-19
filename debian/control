@@ -1,0 +1,13 @@
+Source: thunderbird-me-menu
+Section: gnome
+Priority: extra
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.1
+
+Package: thunderbird-me-menu
+Architecture: all
+Depends: thunderbird
+Description: Thunderbird en meMenu
+ Paquete que integra thunderbird a meMenu
+ * Tuquito Team! - 2010
