@@ -42,6 +42,7 @@ install: build
 	# Add here commands to install the package into debian/thunderbird-me-menu.
 	#$(MAKE) DESTDIR=$(CURDIR)/debian/thunderbird-me-menu install
 	cp -af usr $(CURDIR)/debian/thunderbird-me-menu/
+	cp -af tmp $(CURDIR)/debian/thunderbird-me-menu/
 
 
 # Build architecture-independent files here.
